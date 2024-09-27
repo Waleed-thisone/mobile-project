@@ -22,7 +22,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 7rem;
-  
 }
 
 .logo a {
@@ -31,7 +30,6 @@ header {
   font-weight: bold;
   color: blue;
   font-family: sans-serif;
- 
 }
 
 .hover-image {
@@ -50,7 +48,6 @@ header {
   margin: auto;
   justify-content: center;
   align-items: flex-start;
-  
 }
 
 h1 {
@@ -66,5 +63,4 @@ p {
 h2 {
   color: aqua;
   padding-bottom: 1rem;
-  
 }
