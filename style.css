@@ -16,11 +16,13 @@ header {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 375px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 7rem;
+  
 }
 
 .logo a {
@@ -29,7 +31,7 @@ header {
   font-weight: bold;
   color: blue;
   font-family: sans-serif;
-  margin-left: 150px;
+ 
 }
 
 .hover-image {
@@ -43,9 +45,12 @@ header {
 
 .flexy {
   display: flex;
+  max-width: 375px;
   flex-direction: column;
-  margin-top: 20%;
-  margin-left: 20%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  
 }
 
 h1 {
@@ -61,4 +66,5 @@ p {
 h2 {
   color: aqua;
   padding-bottom: 1rem;
+  
 }
