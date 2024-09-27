@@ -10,12 +10,13 @@ body {
 }
 
 header {
-  background-color: white;
-  padding: 20px 0;
+  padding-top: 20px;
+  background-image: url('header-shapes mobile.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
-  width: 90%;
   max-width: 375px;
   margin: 0 auto;
   display: flex;
