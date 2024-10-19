@@ -10,43 +10,30 @@ body {
 
 header {
   padding-top: 20px;
-  
   padding-left: 25px;
   padding-right: 25px;
 }
 
-
-.proj{
+.proj {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   max-width: 375px;
-  
   background-color: gainsboro;
-  align-items: center;
-  margin: auto;
   padding: 114px 24px;
 }
 
-.pg1{
+.pg1 {
   display: flex;
   flex-direction: column;
   max-width: 327px;
   margin: auto;
   background-image: url('back2.png');
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-position: center;
-  align-items: center; 
-  
-  
-  
-  
-
-  
+  align-items: center;
 }
-
-
 
 .container {
   max-width: 327px;
@@ -55,11 +42,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   gap: 200px;
-  
-  ;
-  
-  
-  
 }
 
 .logo a {
@@ -67,7 +49,6 @@ header {
   font-size: 20px;
   font-weight: bold;
   font-weight: 1000;
-  
   color: rgb(110, 110, 253);
   font-family: sans-serif;
 }
@@ -77,11 +58,11 @@ header {
 }
 
 .hover-image:hover {
-  transform: scale(1.2);  
-  opacity: 0.8;  
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 
-.flexy{
+.flexy {
   display: flex;
   max-width: 327px;
   flex-direction: column;
@@ -89,11 +70,7 @@ header {
   justify-content: center;
   align-items: flex-start;
   padding: 114px 24px;
-  
   border-radius: 0 0 0 75px;
-  
-  
-  
 }
 
 h1 {
@@ -101,7 +78,6 @@ h1 {
   line-height: 52px;
   padding-bottom: 1rem;
   font-weight: 700;
-  
 }
 
 p {
@@ -111,120 +87,105 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  
 }
 
 .h2 {
-  color:rgb(81, 81, 253);
+  color: rgb(81, 81, 253);
   padding-bottom: 1rem;
   gap: 16px;
   width: hug(117px);
   height: hug(24px);
-
 }
 
-#image1{
-    padding-top: 114px;
-    padding-right:24px;
-    padding-bottom: 1114px;
-    padding-left: 24px;
+#image1 {
+  padding-top: 114px;
+  padding-right: 24px;
+  padding-bottom: 1114px;
+  padding-left: 24px;
 }
 
-#line{
-    border-top: 2px solid rgb(110, 110, 245);
-    padding-bottom: 5rem;
+#line {
+  border-top: 2px solid rgb(110, 110, 245);
+  padding-bottom: 5rem;
 }
 
-.page2{
-
-max-width: 327px;
-height: 552px;
-border-radius: 16px;
-border: 1px solid #DFE1E6;
-padding: 16px;
-gap: 12px;
-margin-top: 100px;
-background-color: #ffffff;
-
-
-
+.page2 {
+  max-width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  gap: 12px;
+  margin-top: 100px;
+  background-color: #fff;
 }
 
-
-img.page2{
+img.page2 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
 }
 
-.page2 p{
-  
-  font-weight: 400px; 
+.page2 p {
+  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
 }
 
-.flexy2{
-  display:flex;
+.flexy2 {
+  display: flex;
   flex-direction: column;
-  
-  
 }
-.flexy2 img{
+
+.flexy2 img {
   width: hug(295px);
   height: hug(80px);
   gap: 12px;
 }
 
-.items{
+.items {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
 
-.s1{
+.s1 {
   width: 57px;
   height: 24px;
   border-radius: 8px;
-  
-  
   padding-left: 10px;
   padding-right: 12px;
   padding-bottom: 4px;
   background-color: #e0e0fd;
   text-align: center;
-  
 }
 
-.s2{
+.s2 {
   font-weight: 500;
   size: 12px;
   line-height: 16px;
-  letter: 3%;
 }
 
-.s3{
+.s3 {
   width: 49px;
   font-weight: 500;
   size: 12px;
   line-height: 16px;
-  letter: 3%;
 }
 
-.s4{
+.s4 {
   width: 100px;
   font-weight: 500;
   size: 12px;
   line-height: 16px;
-  letter: 3%;
 }
 
-.s1 p{
+.s1 p {
   color: #6070ff;
 }
 
-button{
+button {
   width: 126px;
   height: 48px;
   border-radius: 8px;
@@ -232,35 +193,27 @@ button{
   margin-top: 30px;
   padding: 12px;
   gap: 10px;
-  background-color: #ffffff;
-
+  background-color: #fff;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-  letter: 3%;
-  align: center;
-  color: #396df2; 
+  color: #396df2;
 }
 
-
-.pg3 img{
+.pg3 img {
   height: 110px;
 }
 
-
 .grid {
   display: flex;
- flex-direction: column;
-  
-  
+  flex-direction: column;
   width: 375px;
+
   /* height: 250px; */
   align-items: flex-start;
   justify-content: center;
   border-radius: 0 75px 0 0;
-  background-color: white; 
-
-  
+  background-color: white;
 }
 
 .icons {
@@ -270,21 +223,20 @@ button{
 
 .icons img {
   padding: 8px;
-  border-radius: 8px; 
-  width: 40px; 
+  border-radius: 8px;
+  width: 40px;
   height: 40px;
 }
 
-
-.button2{
+.button2 {
   width: 162px;
 }
 
-.lan{
-  margin-top:100px;
+.lan {
+  margin-top: 100px;
 }
 
-.lans{
+.lans {
   display: flex;
   flex-direction: column;
   width: 315px;
@@ -293,27 +245,20 @@ button{
   gap: 12px;
   margin-top: 25px;
   margin-bottom: 50px;
-  
 }
 
-.l1{
+.l1 {
   display: flex;
   width: 303px;
   height: 66.72px;
   border-radius: 8px;
   background-color: #eeeded;
   align-items: center;
-  
-  
   padding: 10px;
   gap: 10px;
-  
-  
-  
 }
 
-
-.l1 p{
+.l1 p {
   font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
@@ -321,83 +266,71 @@ button{
   margin-top: 15px;
 }
 
-#imgs{
-margin-bottom: 100px;
+#imgs {
+  margin-bottom: 100px;
 }
 
-.form{
-
+.form {
   display: flex;
   flex-direction: column;
   height: 779px;
-  
   background-image: url('back2.png');
-  background-color: #6070FF;
+  background-color: #6070ff;
   max-width: 375px;
   margin: auto;
   border-radius: 75px 0 0 0;
-  
   align-items: center;
-  
 }
 
-.form h1{
-   font-weight: 700;
-   margin-top: 100px;
-   font-size: 40px;
-   line-height: 52px;
-   
-   color: #ffffff;
-   text-align: center;
+.form h1 {
+  font-weight: 700;
+  margin-top: 100px;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
 }
 
-.form p{
+.form p {
   font-weight: 400px;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
   margin: 0 24px;
 }
 
-.text{
+.text {
   width: 300px;
   height: 48px;
   margin-top: 20px;
   border-radius: 10px;
-  border: 1px solid #CFD8DC;
-  
+  border: 1px solid #cfd8dc;
 }
 
-.area{
+.area {
   height: 160px;
-  
 }
 
-.form button{
+.form button {
   margin-right: 193px;
   width: 130px;
 }
 
-.lapg{
+.lapg {
   display: flex;
   flex-direction: column;
   max-width: 375px;
   margin: auto;
-  
-  background-color: gainsboro; 
+  background-color: gainsboro;
+
   /* height: 1100px; */
-  S
-  
-  
 }
 
-
-.middle{
-  background-color: white; 
+.middle {
+  background-color: white;
 }
 
-.grid h1{
-   margin-top: 200px; 
+.grid h1 {
+  margin-top: 200px;
 }
-
