@@ -335,38 +335,44 @@ button {
   margin-top: 200px;
 }
 
-@media(min-width:768px){
-  .pg1,.proj,.lapg,.form,.grid,.middle{
+@media (min-width: 768px) {
+  .pg1,
+  .proj,
+  .lapg,
+  .form,
+  .grid,
+  .middle {
     min-width: 1340px;
   }
 
-  .pg1{
+  .pg1 {
     background-image: url('back3.png');
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  .container{
+  .container {
     min-width: 1200px;
     height: 72px;
-    margin-left:-40px ;
+    margin-left: -40px;
   }
-  .logo{
-    width: 150px; 
+
+  .logo {
+    width: 150px;
     height: 40px;
     padding: 12px 10px;
     margin-top: 16px;
     margin-left: 143px;
   }
-  #logo{
+
+  #logo {
     width: 76px;
     height: 20px;
     font-weight: 700px;
-    color: #6070FF;
-    ;
-    
+    color: #6070ff;
   }
-  .flexy{
+
+  .flexy {
     min-width: 920px;
     height: 846px;
     justify-content: center;
@@ -374,16 +380,16 @@ button {
     gap: 12px;
   }
 
-  .flexy h1{
+  .flexy h1 {
     width: 920px;
     height: 122px;
     font-weight: 700px;
     font-size: 48px;
     line-height: 60px;
-    color: #091E42;
+    color: #091e42;
   }
 
-  #flexyp1{
+  #flexyp1 {
     width: 920px;
     height: 98px;
     font-weight: 400px;
@@ -392,59 +398,50 @@ button {
     color: #344563;
   }
 
-  .h2{
+  .h2 {
     width: 117px;
     height: 24px;
     gap: 8px;
     font-weight: 500px;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
-  #image1{
+  #image1 {
     width: 170.17px;
     height: 20px;
-    color: #505F79;
+    color: #505f79;
   }
 
-  .page2{
+  .page2 {
     transform: rotate(270deg);
-    
     min-width: 496px;
-    height: 1156px; 
+    height: 1156px;
     margin-top: -275px;
     margin-bottom: -240px;
-    
-    
-    
   }
 
-  .page2 img{
+  .page2 img {
     transform: rotate(90deg);
     height: 448px;
-    width: 544px; 
+    width: 544px;
     position: absolute;
     top: 65px;
     left: -25px;
-    
     border-radius: 8px;
-   
   }
 
-
-   .flexy2 img{
+  .flexy2 img {
     transform: rotate(90deg);
     height: 110px;
-    width: 496px;  
+    width: 496px;
     position: absolute;
     left: 160px;
     top: 810px;
-    
-    
-  } 
+  }
 
-  .flexy2 p{
+  .flexy2 p {
     transform: rotate(90deg);
     width: 496px;
     height: 50px;
@@ -456,7 +453,7 @@ button {
     margin-top: 820px;
   }
 
-  .items{
+  .items {
     transform: rotate(90deg);
     width: 203px;
     height: 24px;
@@ -464,30 +461,22 @@ button {
     position: absolute;
     top: 701px;
     left: 100px;
-    
   }
-  .page2 button{
-    
+
+  .page2 button {
     transform: rotate(90deg);
     width: 126px;
     height: 48px;
     margin-top: 16px;
     gap: 12px;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     padding: 12px;
     position: absolute;
     top: 635px;
     right: 310px;
-    
-      
-  
   }
 
-
-
-
-
-  .proj{
+  .proj {
     display: flex;
     flex-direction: column;
     column-gap: -100px;
@@ -496,56 +485,48 @@ button {
     height: auto;
     background-color: whitesmoke;
     border-radius: 45px;
-
-   
-    
   }
 
-  .lapg{
+  .lapg {
     display: flex;
     flex-direction: row;
     background-color: white;
     margin-bottom: 200px;
-
   }
 
-  .grid{
-    min-width:447px;
+  .grid {
+    min-width: 447px;
     height: 311px;
     margin-left: 143px;
     gap: 24px;
     margin-top: 150px;
     margin-bottom: 100px;
-    
-    
   }
 
-
-  .middle{
+  .middle {
     min-width: 684px;
     height: 360px;
     margin-top: 130px;
     margin-left: 125px;
     background-color: white;
-    
   }
 
-  .lans{
+  .lans {
     display: flex;
     flex-direction: row;
     width: 414px;
     height: 144px;
   }
 
-  .l1{
+  .l1 {
     display: flex;
     flex-direction: column;
-    background-color: #F7F7F9;
+    background-color: #f7f7f9;
     width: 122px;
     height: 120px;
   }
 
-  #imgs{
+  #imgs {
     display: flex;
     flex-direction: column;
     margin-top: -60px;
@@ -553,145 +534,114 @@ button {
     height: 32px;
   }
 
-  .lan{
-   
+  .lan {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
     margin-left: 15px;
     color: #344563;
-
-
   }
 
-  .grid h1{
+  .grid h1 {
     width: 447px;
     height: 33px;
-     gap: 0px;
-     
+    gap: 0;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
-    color: #091E42;
-
-    
-
+    color: #091e42;
   }
-  #gridp1{
+
+  #gridp1 {
     width: 447px;
     height: 102px;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #344563;
-
-
-
-
   }
 
-  .h21{
+  .h21 {
     width: 200px;
     height: 24px;
-   
-
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-   
-    color: #7F8CFF;
-
-
+    color: #7f8cff;
   }
-  .icons{
+
+  .icons {
     width: 200px;
     height: 40px;
   }
 
-  .button2{
-    width: 162pxpx;
-     height: 48pxpx;
-     padding: 12px;
+  .button2 {
+    width: 162px;
+    height: 48px;
+    padding: 12px;
     gap: 10px;
-     border-radius: 8px 0px 0px 0px;
-     border: 1px solid #6070FF;
-     opacity: 0px;
-
+    border-radius: 8px 0 0 0;
+    border: 1px solid #6070ff;
+    opacity: 0;
   }
 
-  .form{
+  .form {
     justify-content: center;
     align-items: center;
   }
-  .form h1{
+
+  .form h1 {
     width: 801px;
-height: 56px;
-gap: 0px;
-opacity: 0px;
-
-font-size: 40px;
-font-weight: 700;
-line-height: 52px;
-text-align: center;
-color: #FFFFFF;
-
-
+    height: 56px;
+    gap: 0;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
   }
 
-  .form p{
+  .form p {
     width: 569px;
-height: 102px;
-gap: 0px;
-opacity: 0px;
-;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-text-align: center;
-
+    height: 102px;
+    gap: 0;
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+    text-align: center;
   }
 
-  .form input{
+  .form input {
     width: 447px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-border-radius: 0;
-
+    height: 48px;
+    gap: 0;
+    opacity: 0;
+    border-radius: 0;
   }
 
-  .form textarea{
+  .form textarea {
     width: 447px;
-height: 170px;
-gap: 0px;
-opacity: 0px;
-border-radius: 0;
-
+    height: 170px;
+    gap: 0;
+    opacity: 0;
+    border-radius: 0;
   }
 
-  .button3{
-   min-width: 150px;
+  .button3 {
+    min-width: 150px;
     height: 48px;
     padding: 12px 16px 12px 16px;
-
-border-radius: 8px;
-
-font-family: Poppins;
-font-size: 17px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.03em;
-text-align: center;
-margin-left: 150px;
-
-
-}
-
-
-
-
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-left: 150px;
+  }
 }
