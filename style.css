@@ -600,7 +600,6 @@ button {
     width: 801px;
     height: 56px;
     gap: 0;
-    
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -612,7 +611,6 @@ button {
     width: 569px;
     height: 102px;
     gap: 0;
-    
     font-size: 20px;
     font-weight: 400px;
     line-height: 28px;
@@ -624,16 +622,13 @@ button {
     width: 447px;
     height: 48px;
     gap: 0;
-    
     border-radius: 0;
-    
   }
 
   .form textarea {
     width: 447px;
     height: 170px;
     gap: 0;
-    
     border-radius: 0;
   }
 
