@@ -322,7 +322,7 @@ button {
   flex-direction: column;
   max-width: 375px;
   margin: auto;
-  background-color: gainsboro;
+  background-color: whitesmoke;
 
   /* height: 1100px; */
 }
@@ -589,15 +589,18 @@ button {
   }
 
   .form {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('back3.png');
   }
 
   .form h1 {
     width: 801px;
     height: 56px;
     gap: 0;
-    opacity: 0;
+    
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -609,26 +612,28 @@ button {
     width: 569px;
     height: 102px;
     gap: 0;
-    opacity: 0;
+    
     font-size: 20px;
     font-weight: 400px;
     line-height: 28px;
     text-align: center;
+    color: #ebebff;
   }
 
   .form input {
     width: 447px;
     height: 48px;
     gap: 0;
-    opacity: 0;
+    
     border-radius: 0;
+    
   }
 
   .form textarea {
     width: 447px;
     height: 170px;
     gap: 0;
-    opacity: 0;
+    
     border-radius: 0;
   }
 
